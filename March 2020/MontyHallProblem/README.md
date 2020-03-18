@@ -16,7 +16,7 @@ you switch or remain?
 -------
  
  <p align="center">
-  <img width="357" height="257" src="https://i.imgur.com/7NaiDKe.png">
+  <img width="457" height="357" src="https://i.imgur.com/7NaiDKe.png">
 </p>
 
 You pick an arbitrary door, for example door 1. The probability that you chose a door hiding a goat is clearly 2/3. Once Monty opens another door, for example door 3, you now know where one of the goats is. For doors 1, 2, and 3, the probability of them hiding a goat are 2/3, 1/3 and 1 (100%). Switching doors will win you a car if you initially picked a goat, since you can only switch from a goat to a car and vice versa. Since the probability you initially picked a goat were 2/3, your chance to win if you switch is also 2/3. The answer to the problem is **YES**, you should definitely switch. 
