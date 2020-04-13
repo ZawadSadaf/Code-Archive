@@ -1,3 +1,5 @@
+### Class Econ
+
 A class of methods for performing various operations from ECON 423 (Engineering Economic Analysis, IIT). 
 
 | Chapter | Name  |  Return Type  |  Method and Description |
