@@ -76,24 +76,25 @@ The application must provide a login portal for user to login. The application w
 credentials and privileges.
 
 ### Privileges
-1- Users with admin privileges can do the following:
-a. Create a new employee
-b. Set up tables: order table, employee, model table for product, inventory
-c. Grant access
-d. Access and create the business reporting ….
+**1.** Users with admin privileges can do the following:
+- Create a new employee
+- Set up tables: order table, employee, model table for product, inventory
+- Grant access
+- Access and create the business reporting ….
 
-2- The sale person should be able to view:
-a. View and update customer
-b. Create an Order
-c. Access sales reports
+**2.** The sale person should be able to view:
+- View and update customer
+- Create an Order
+- Access sales reports
 
-3- Users with engineer privileges can do the following:
-a. Access and update model
-b. Access and update inventory
-c. Limited view to employee information, first and last name, title ….
-4- Users with HR privileges can do the following:
-a. Access and update of employee information
-b. View of employee and associated sales number
+**3.** Users with engineer privileges can do the following:
+- Access and update model
+- Access and update inventory
+- Limited view to employee information, first and last name, title ….
+
+**4.** Users with HR privileges can do the following:
+- Access and update of employee information
+- View of employee and associated sales number
 
 ### Reporting and analytics
 The admin will have the capability of running business analytics reports that will help them monitor
