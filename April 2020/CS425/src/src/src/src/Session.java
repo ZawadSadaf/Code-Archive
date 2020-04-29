@@ -49,6 +49,19 @@ public class Session {
 		userID = sc.next();
 		String q = "select privilege from login where userid = '" + userID + "'";
 		loginQuery(q); }
+		//Enter Key to continue 
+	private void pressEnterKeyToContinue()
+	 { 
+	        System.out.println("Press Enter key to restart login page or Re-enter your userID: ");
+	        try
+	        {
+	            System.in.read();
+	            loginHandler();
+	        }  
+	        catch(Exception e)
+	        {} 
+	        
+	 }
 	
 	//Special Query For loginHandler Method
 	private String loginQuery(String q) {
@@ -65,7 +78,10 @@ public class Session {
 			privilege = rs.getString(1);
 			c.close();
 			s.close(); }
-		} catch (SQLException e) { throw new Error("Login Failed", e); }
+		} catch (SQLException e) { 
+			System.out.println("Login Failed!  try logging in again?");
+			pressEnterKeyToContinue();
+		}
 		System.out.println("Login Successful");
 		return privilege; }
 	
